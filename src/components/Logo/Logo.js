@@ -4,7 +4,7 @@ import './Logo.css'
 
 const Logo = (props) => {
     return (
-        <div className='Logo'>
+        <div className='Logo' style={{height:props.height}}>
             <img src={burgerLogo} alt="Make a Burger"/>
         </div>
     )
